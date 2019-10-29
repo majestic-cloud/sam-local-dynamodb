@@ -1,0 +1,9 @@
+{
+  "name": "sam-local-dynamodb",
+  "version": "1.0.0",
+  "description": "Demo for local dynamodb operations",
+  "main": "app.js",
+  "repository": "https://github.com/majestic-cloud/sam-local-dynamodb.git",
+  "author": "Majestic.Cloud",
+  "license": "MIT"
+}

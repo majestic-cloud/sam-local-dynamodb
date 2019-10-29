@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  sam-demo
+
+  Sample SAM Template for sam-demo
+
+Globals:
+  Function:
+    Timeout: 5
+
+Resources:
+  dynamoOps:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dynamo
+      Handler: app.dynamoOps
+      Runtime: nodejs8.10
