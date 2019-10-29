@@ -1,6 +1,7 @@
 ## Just a short little test/demo of running DynamoDB locally
 
-
+- link to AWS documentation on DynamoDB Local
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html
 
 ### Commands used:
 

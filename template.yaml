@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  sam-demo
+  sam-local-dynamodb
 
-  Sample SAM Template for sam-demo
+  Just a short little test/demo of running DynamoDB locally
 
 Globals:
   Function:
